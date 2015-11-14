@@ -10,7 +10,33 @@ h8 {
     font-family: monospace;
 }
 
+button {
+    outline: none!important;
+}
+
+.font-large {
+    font-size: 21px;
+}
+
 /* Slick slider */
+
+.slider-container {
+    /*overflow-y: scroll;
+    height: calc(100vh - 160px);*/
+}
+
+.slick-slider,
+.slick-list,
+.slick-track,
+.slick-slide
+{
+    overflow-y: hidden;
+    height: calc(100vh - 190px);
+}
+
+.slick-slide {
+    overflow-y: scroll;
+}
 
 .slick-arrow {
     color: #222;
@@ -19,28 +45,25 @@ h8 {
 /* Sticky footer styles */
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
 }
 
 .footer .container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
-}
-.footer .container .text-muted {
-  margin: 20px 0;
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
 }
